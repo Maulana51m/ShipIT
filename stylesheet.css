@@ -1,0 +1,470 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Baloo Tammudu 2", cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 10px 15px;
+  margin: 0 auto;
+}
+
+.container2 {
+  max-width: 1170px;
+  padding: 10px 15px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-color: white;
+  background-size: cover;
+  color: black;
+  text-align: left;
+}
+
+.top-wrapper img {
+  padding-left: 10px;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+  text-align: justify;
+  margin-right: 10px;
+}
+.container2 h1 {
+  font-size: 48px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+.container2 p {
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  line-height: 1.1;
+  border-bottom: 1px solid #eed7ee;
+}
+
+.btn-wrapper {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: lightcoral;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 1;
+  padding-top: 5px;
+}
+
+.header-right {
+  float: right;
+  text-align: right;
+}
+
+.header-right ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.header-right ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1;
+  padding-top: 5px;
+}
+
+.header-right ul li::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background: lightcoral;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.header-right ul li:hover::after {
+  width: 100%;
+}
+
+/*
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: black;
+  font-weight: bold;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+*/
+
+.lesson-wrapper,
+.info-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.heading p {
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+  padding: 25px;
+}
+
+.tim-info {
+  float: left;
+  width: 20%;
+  padding: 25px;
+}
+
+.lesson-icon,
+.tim-icon {
+  position: relative;
+  width: 100%;
+}
+
+.lesson-icon img {
+  width: 100%;
+}
+
+.tim-icon img {
+  width: 100%;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #716e72;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.contact-wrapper {
+  text-align: left;
+  padding: 100px;
+}
+
+.contact-container {
+  height: 100px;
+}
+
+.contact-left {
+  width: 50%;
+  float: left;
+}
+
+.contact-now {
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  line-height: 10px;
+}
+
+.contact-left h3 {
+  font-size: 25px;
+  line-height: 25px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.contact-left p {
+  line-height: 30px;
+  width: 600px;
+}
+
+.contact-tag {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 27%;
+  margin-right: 7px;
+  margin-bottom: 7px;
+  float: left;
+  border-right: 10px;
+  padding: 10px 20px;
+}
+textarea {
+  width: 55%;
+  height: 100px;
+  resize: none;
+  padding: 10px 20px;
+}
+input,
+textarea {
+  outline: none;
+  border: 1px solid #5f5d60;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  margin-top: 10px;
+}
+
+button {
+  color: white;
+  background-color: #474af1;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border: none;
+  border-radius: 10;
+}
+
+button:hover {
+  color: white;
+  background-color: #fe7a6e;
+}
+
+.contact-right {
+  width: 50%;
+  float: left;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: lightcoral;
+  cursor: pointer;
+  box-shadow: 0 7px IndianRed;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+/* footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b5b2b6;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+} */
+
+/* Write your code below */
+span.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.divider {
+  width: 50%;
+  height: 3px;
+  display: inline-block;
+  background-color: #ff8a84;
+}
+
+.line {
+  text-align: center;
+}
+
+.container4 {
+  max-width: 1170px;
+  padding: 4em 1em;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.container4 ul li {
+  list-style: none;
+  padding: 2em;
+  color: black;
+  opacity: 0.7;
+}
+.container4 ul {
+  margin: 0;
+  padding: 0;
+}
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: none;
+}
+
+.khusus-twitter {
+  background-color: #55acee;
+}
+
+.instagram {
+  background-color: none;
+}
+.btn {
+  padding: 12px 24px;
+  color: black;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+.khusus-btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
