@@ -468,3 +468,15 @@ span.menu-icon {
 .fa {
   margin-right: 5px;
 }
+
+.sosmed {
+  float: left;
+  text-align: center;
+  margin-left: 150px;
+}
+.alamat {
+  float: right;
+}
+.logo-footer {
+  float: left;
+}

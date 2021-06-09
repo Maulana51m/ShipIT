@@ -1,56 +1,145 @@
 /* For Tablets */
 @media all and (max-width: 1000px) {
-    .lesson, .tim-info {
-      width: 50%;
-      margin-bottom: 50px;
-    }
-    
-    .heading h2 {
-      font-size: 20px;
-    }
-    
-    .top-wrapper h1 {
-      font-size: 32px;
-    }
+  .lesson,
+  .tim-info {
+    width: 50%;
+    margin-bottom: 50px;
   }
-  
-  /* For Smartphones */
-  @media all and (max-width: 670px) {
-    .lesson, .tim-info {
-      width: 100%;
-    }
-    
-    .btn {
-      width: 100%;
-    }
-    
-    .facebook {
-      margin-bottom: 10px;
-    }
-    
-    .top-wrapper {
-      text-align: left;
-    }
-    
-    .header-right{
-      display: none;
-    }
-    
-    .menu-icon{
-      display: block;
-    }
-    
-    .top-wrapper h1 {
-      font-size: 24px;
-      line-height: 36px;
-    }
-    
-    .top-wrapper p {
-      font-size: 14px;
-      line-height: 20px;
-    }
-    
-    footer {
-      text-align: center;
-    }
+
+  .heading h2 {
+    font-size: 20px;
   }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .lesson,
+  .tim-info {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .top-wrapper {
+    width: 100%;
+  }
+  .header-right {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .menu-icon {
+    display: block;
+    width: 100%;
+  }
+
+  .top-wrapper h1 {
+    width: 100%;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .khusus-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-left {
+    width: 100%;
+    display: block;
+  }
+  .contact-left p {
+    line-height: 30px;
+    width: 100%;
+  }
+
+  input,
+  textarea,
+  button {
+    width: 100%;
+  }
+
+  .contact-right {
+    width: 100%;
+    display: block;
+  }
+  .contact-right img {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .container4 ul li {
+    display: block;
+    margin-right: 50px;
+    text-align: center;
+  }
+  .container4 .sosmed {
+    float: left;
+    text-align: center;
+    margin-left: 50px;
+  }
+
+  .container4 .alamat {
+    margin-right: 70px;
+  }
+
+  .container4 .logo-footer {
+    width: 100%;
+  }
+
+  .header-right {
+    width: 50%;
+    float: right;
+    text-align: right;
+  }
+
+  .header-right ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 4px;
+    position: relative;
+  }
+
+  .header-right ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1;
+    padding-top: 5px;
+  }
+
+  .header-right ul li::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: lightcoral;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+
+  .header-right ul li:hover::after {
+    width: 100%;
+  }
+}
